@@ -20,14 +20,14 @@
   <aside>
     {% if project.image %}
     <a href="{{ project.url | relative_url }}" rel="permalink">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} • {% t Project illustration %}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} • Illustrtion du projet">
     </a>
     {% endif %}
   </aside>
 
   <dl class="def-as-list">
     {% if project.customer and features contains 'customer' %}
-    <dt>{% t With Whom? %}</dt>
+    <dt>Avec qui ?</dt>
     <dd>
       <ul class="list list--inline list--words">
         {% assign customer = site.customers | where: "uid", project.customer | first %}
@@ -40,18 +40,18 @@
     {% endif %}
 
     {% if project.current_stage and features contains 'current-stage' %}
-    <dt>{% t Current Stage %}</dt>
+    <dt>Current Stage</dt>
     <dd>{{ project.current_stage }}</dd>
     {% endif %}
 
     {% if project.next_stage and features contains 'next-stage' %}
-    <dt>{% t Next Stage %}</dt>
+    <dt>Next Stage</dt>
     <dd>{{ project.next_stage }}</dd>
     {% endif %}
 
     {% assign collection = site.collections | where:'label',project.collection | first %}
     {% if project.resources.size and features contains 'resources' %}
-    <dt>{% t Additional Resources %}</dt>
+    <dt>Additional Resources</dt>
       {% for resource in project.resources %}
       <dd class="same-def"><a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a></dd>
       {% endfor %}

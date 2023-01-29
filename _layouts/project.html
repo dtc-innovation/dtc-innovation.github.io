@@ -10,19 +10,19 @@ layout: base
 
     <p>
       {% if customer %}
-        🙌 {% t A project conducted with %}
+        🙌 A project conducted with
         <a href="{{ customer.website }}">{{ customer.title }}</a>.<br>
       {% endif %}
 
       {% if page.resources.size %}
-        👀 <strong id="resources">{% t Additional Resources %}</strong>
+        👀 <strong id="resources">Additional Resources</strong>
         {% for resource in page.resources %}
         • <a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>
         {% endfor %}
         <br>
       {% endif %}
 
-      🗣 <strong>{% t Our value proposition %}</strong> •
+      🗣 <strong>Our value proposition</strong> •
       {{ page.short_description }}
     </p>
 
@@ -33,14 +33,14 @@ layout: base
 
   {% unless project_writings == empty %}
   <nav class="container" id="project-writings">
-    <h2>{% t Related Project Writings %}</h2>
+    <h2>Related Project Writings</h2>
 
     {% include writings/timeline.html writings=project_writings %}
   </nav>
   {% endunless %}
 
   <article>
-    <h2>{% t About %} {{ page.title }}</h2>
+    <h2>About  {{ page.title }}</h2>
 
     {{ page.content }}
   </article>

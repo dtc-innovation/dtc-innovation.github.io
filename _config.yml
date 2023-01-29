@@ -6,26 +6,6 @@ url: https://dtc-innovation.org
 permalink: /writings/:year/:title
 
 source_lang: en
-translations:
-  fr:
-    About us: À propos
-    Discover all our projects: Découvrez tous nos projets
-    Your email address: Votre adresse e-mail
-    Subscribe: Inscription
-    Summary: En bref
-    With Whom?: Avec qui&nbsp;?
-    Current Stage: En ce moment
-    Next Stage: Prochaine étape
-    Additional Resources: Liens et ressources
-    Fluent In: À l'aise avec
-    What Makes Them Happy: Quelque chose qui me fait du bien
-    Notable Fact: Signe distinctif
-    Current Location: Où me trouver en ce moment
-    About: À propos du projet
-    Related Project Writings: Articles connexes
-    Our value proposition: Notre proposition de valeur
-    A project conducted with: Un projet réalisé avec
-    Project illustration: Aperçu du projet
 
 collections_dir: collections
 collections:
