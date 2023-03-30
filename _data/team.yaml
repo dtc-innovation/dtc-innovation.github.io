@@ -1,20 +1,20 @@
-- id: clementine
-  name: Clémentine
-  sort_order: 3
-  en:
-    short_description: |
-      Product owner specialised in user research, health, cinema and social innovation.
-    what_makes_them_happy: Looking at the stars by night.
-    notable_fact: Cannot refrain herself having good ideas.
-    current_location: Montreal, Canada
-  fr:
-    short_description: |
-      UX Designer et facilitatrice de projets.
-    what_makes_them_happy: Lever les yeux vers les étoiles.
-    notable_fact: Je fais parler les bonnes personnes entre elles.
-    current_location: Montréal, Canada
-  github: ClementineHahn
-  twitter: ClementineHahn
+# - id: clementine
+#   name: Clémentine
+#   sort_order: 3
+#   en:
+#     short_description: |
+#       Product owner specialised in user research, health, cinema and social innovation.
+#     what_makes_them_happy: Looking at the stars by night.
+#     notable_fact: Cannot refrain herself having good ideas.
+#     current_location: Montreal, Canada
+#   fr:
+#     short_description: |
+#       UX Designer et facilitatrice de projets.
+#     what_makes_them_happy: Lever les yeux vers les étoiles.
+#     notable_fact: Je fais parler les bonnes personnes entre elles.
+#     current_location: Montréal, Canada
+#   github: ClementineHahn
+ #  twitter: ClementineHahn
 - id: david
   name: David
   sort_order: 1
